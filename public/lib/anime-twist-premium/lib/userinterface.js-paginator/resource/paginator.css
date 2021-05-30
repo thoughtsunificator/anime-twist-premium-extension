@@ -1,0 +1,24 @@
+#paginator {
+	display: contents;
+}
+
+#paginator .pagination-content {
+	display: contents;
+}
+
+#paginator .pagination-pages {
+	display: grid;
+	grid-auto-flow: column;
+	place-content: center;
+	gap: 10px;
+}
+
+#paginator .pagination-indicators {
+	display: contents
+}
+
+#paginator .pagination-previous,
+#paginator .pagination-next,
+#paginator .pagination-jump {
+	display: none;
+}

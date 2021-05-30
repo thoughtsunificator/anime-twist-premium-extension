@@ -1,0 +1,37 @@
+@media screen and (max-width: 840px) {
+	.toggles {
+		display: grid;
+		grid-auto-flow: column
+	}
+
+	#atp-watch-lists {
+		overflow-y: scroll;
+	}
+}
+
+.atp-search .series {
+	grid-column: span 2;
+}
+
+.series .series-title:before {
+	padding-right: 10px;
+	font-size: 1.2rem;
+	display: grid;
+	align-content: center;
+}
+
+.series .completed .series-title:before {
+	content: "✔️";
+}
+
+.series .plan-to-watch .series-title:before {
+	content: "⏱️";
+}
+
+.series .watching .series-title:before {
+	content: "📺";
+}
+
+.series .dropped .series-title:before {
+	content: "💩";
+}

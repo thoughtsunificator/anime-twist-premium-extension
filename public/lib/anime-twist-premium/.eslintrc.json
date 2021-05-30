@@ -1,0 +1,23 @@
+{
+		"env": {
+				"browser": true,
+				"es6": true
+		},
+		"extends": "eslint:recommended",
+		"globals": {
+				"Atomics": "readonly",
+				"UserInterface": "readonly",
+				"ATP": "readonly",
+				"Search": "readonly",
+				"SearchEntry": "readonly",
+				"WatchListEntry": "readonly",
+				"WatchList": "readonly",
+				"SharedArrayBuffer": "readonly"
+		},
+		"parserOptions": {
+				"ecmaVersion": 11,
+				"sourceType": "module"
+		},
+		"rules": {
+		}
+}

@@ -1,0 +1,63 @@
+{
+
+	"description": "Your Anime Twist's favorite accessory",
+	"manifest_version": 2,
+	"name": "anime-twist-premium",
+	"short_name": "atp",
+	"version": "1.5.9",
+	"homepage_url": "http://thoughtsunificator.me",
+	"icons": {
+		"16": "resource/icon16.png",
+		"38": "resource/icon38.png",
+		"48": "resource/icon48.png",
+		"128": "resource/icon128.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "anime-twist-premium@localhost",
+			"strict_min_version": "42.0"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://twist.moe/*"],
+			"js": [
+				"lib/anime-twist-premium/lib/userinterface.js/src/userinterface.js",
+				"lib/anime-twist-premium/lib/userinterface.js-collection/userinterface/popup.js",
+				"lib/anime-twist-premium/lib/userinterface.js-collection/userinterface/popup-confirm.js",
+				"lib/anime-twist-premium/lib/userinterface.js-collection/userinterface/popup-controls.js",
+				"lib/anime-twist-premium/lib/userinterface.js-collection/userinterface/button.js",
+				"lib/anime-twist-premium/lib/userinterface.js-paginator/src/object/paginator.js",
+				"lib/anime-twist-premium/lib/userinterface.js-paginator/src/object/page.js",
+				"lib/anime-twist-premium/lib/userinterface.js-paginator/src/userinterface/paginator.js",
+				"lib/anime-twist-premium/lib/userinterface.js-paginator/src/userinterface/page.js",
+				"lib/anime-twist-premium/object/atp.js",
+				"lib/anime-twist-premium/object/search.js",
+				"lib/anime-twist-premium/object/search-entry.js",
+				"lib/anime-twist-premium/data/search-engine.js",
+				"lib/anime-twist-premium/object/watch-list.js",
+				"lib/anime-twist-premium/object/watch-list-entry.js",
+				"lib/anime-twist-premium/userinterface/atp.js",
+				"lib/anime-twist-premium/userinterface/watch-list-add.js",
+				"lib/anime-twist-premium/userinterface/watch-list-entry.js",
+				"lib/anime-twist-premium/userinterface/watch-list-lists.js",
+				"lib/anime-twist-premium/userinterface/watch-list-list.js",
+				"lib/anime-twist-premium/userinterface/watch-list-menu.js",
+				"lib/anime-twist-premium/userinterface/watch-list-menu-toggles.js",
+				"lib/anime-twist-premium/userinterface/watch-list.js",
+				"lib/anime-twist-premium/userinterface/search.js",
+				"lib/anime-twist-premium/userinterface/search-random.js",
+				"lib/anime-twist-premium/anime-twist-premium.js"
+			],
+			"css": [
+				"lib/anime-twist-premium/lib/userinterface.js-paginator/resource/paginator.css",
+				"lib/anime-twist-premium/lib/userinterface.js-collection/resource/popup.css",
+				"lib/anime-twist-premium/resource/popup.css",
+				"lib/anime-twist-premium/resource/anime-twist-premium.css",
+				"lib/anime-twist-premium/resource/watchlist.css",
+				"lib/anime-twist-premium/resource/search.css"
+			],
+			"run_at": "document_start"
+		}
+	]
+}

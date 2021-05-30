@@ -1,0 +1,32 @@
+{
+	"name": "userinterface.js-skeleton",
+	"version": "1.0.0",
+	"description": "This is a boilerplate for [userinterface.js](https://github.com/thoughtsunificator/userinterface.js).",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"scripts": {
+		"start": "browser-sync -s -w  --no-ui --no-online --no-notify --no-open",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/userinterface.js-skeleton.git"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/userinterface.js-skeleton/issues"
+	},
+	"homepage": "https://github.com/thoughtsunificator/userinterface.js-skeleton#readme",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"eslint": "^7.0.0"
+	},
+	"dependencies": {},
+	"keywords": [
+		"ui"
+	]
+}

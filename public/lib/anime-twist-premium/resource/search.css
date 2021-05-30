@@ -1,0 +1,13 @@
+.atp-search {
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.atp-search.series {
+	grid-row: 3;
+}
+
+#atp-search-random {
+	font-size: 1.5em;
+	border-radius: 0;
+}

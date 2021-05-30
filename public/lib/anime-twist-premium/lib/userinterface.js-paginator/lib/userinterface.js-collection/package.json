@@ -1,0 +1,32 @@
+{
+	"name": "userinterface.js-collection",
+	"version": "1.0.0",
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"scripts": {
+		"test": "nodeunit"
+	},
+	"devDependencies": {
+		"eslint": "^7.0.0",
+		"jsdom": "^13.2.0",
+		"nodeunit": "^0.11.3"
+	},
+	"dependencies": {},
+	"description": "userinterface.js-collection is a collection of UI elements to help build your UI. In this collection you will find ready to use tabs, input, button etc.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/userinterface.js-collection.git"
+	},
+	"keywords": [
+		"ui"
+	],
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/userinterface.js-collection/issues"
+	},
+	"homepage": "https://github.com/thoughtsunificator/userinterface.js-collection#readme"
+}

@@ -1,0 +1,33 @@
+{
+	"name": "userinterface",
+	"version": "1.0.0",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "nodeunit",
+		"docs": "jsdoc2md src/userinterface.js"
+	},
+	"devDependencies": {
+		"eslint": "^7.0.0",
+		"jsdoc-to-markdown": "^5.0.3",
+		"jsdom": "^13.2.0",
+		"nodeunit": "^0.11.3"
+	},
+	"dependencies": {},
+	"description": "I made and maintained for a few years this browser extension called [bettermyanimelist](https://github.com/thoughtsunificator/bettermyanimelist) and I can remember that I would often write tons of code that would later make good features. However those were not easy to maintain and I had two things I wanted to do: one is that I would have a way to write code that could be reused accross the entire application and the second to centralize events.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/userinterface.js.git"
+	},
+	"keywords": [
+		"ui"
+	],
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/userinterface.js/issues"
+	},
+	"homepage": "https://github.com/thoughtsunificator/userinterface.js#readme"
+}

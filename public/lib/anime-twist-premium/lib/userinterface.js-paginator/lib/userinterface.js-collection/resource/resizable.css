@@ -1,0 +1,32 @@
+.resizable {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	pointer-events: none;
+	z-index: 0;
+}
+
+.resizable-indicator {
+	position: absolute;
+	display: grid;
+	place-content: center;
+	width: 15px;
+	height: 15px;
+}
+
+.resizable-indicator-icon {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	width: 5px;
+	height: 5px;
+	border-width: 1px;
+}
+
+.resizable-preview {
+	top: 0;
+	position: absolute;
+	border-style: dotted;
+	display: none;
+}

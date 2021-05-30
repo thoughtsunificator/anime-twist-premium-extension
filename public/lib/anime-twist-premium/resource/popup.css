@@ -1,0 +1,22 @@
+@media screen and (max-width: 840px) {
+	.popup-body {
+		display: grid;
+		place-content: center;
+		overflow: auto;
+		width: 100%;
+	}
+}
+
+#popup {
+	z-index: 31 !important;
+}
+
+.popup-body {
+	max-height: 100vh;
+	overflow: hidden;
+	padding: 1rem !important;
+	background: #1c1f22 !important;
+	border-radius: 2px !important;
+	margin: 0 auto !important;
+	border: 0 !important;
+}
