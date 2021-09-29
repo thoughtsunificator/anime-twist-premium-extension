@@ -1,0 +1,24 @@
+{
+	"name": "anime-twist-premium-extension",
+	"version": "1.0.0",
+	"description": "Your Anime Twist's favorite accessory",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/anime-twist-premium-extension.git"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/anime-twist-premium-extension/issues"
+	},
+	"scripts": {
+		"start": "web-ext run -v --source-dir ./public/",
+		"build": "web-ext build --source-dir ./public/"
+	},
+	"devDependencies": {
+		"eslint": "^7.0.0",
+		"web-ext": "^4.2.0"
+	},
+	"homepage": "https://github.com/thoughtsunificator/anime-twist-premium-extension#readme"
+}

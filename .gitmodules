@@ -1,0 +1,3 @@
+[submodule "public/lib/anime-twist-premium"]
+	path = public/lib/anime-twist-premium
+	url = https://github.com/thoughtsunificator/anime-twist-premium
